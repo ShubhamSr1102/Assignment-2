@@ -21,7 +21,7 @@ public class AverageMarks {
 			
 	}
 
-	public static Object[] studentAverageAndTotal(int[][] marks) 
+	public static int[][] studentAverageAndTotal(int[][] marks) 
 	{
 		int stuTotal[][] = new int[3][2];
 		for(int i = 0; i < 3; i++)
